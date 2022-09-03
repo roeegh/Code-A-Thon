@@ -8,5 +8,3 @@
 const songDecoder = (remix) => {
     return remix.replace(/(WUB)+/g, ' ').trim();
 }
-
-console.log(songDecoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB'));

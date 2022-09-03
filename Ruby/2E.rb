@@ -9,8 +9,13 @@
 # Example: "aA11" => 2
 # Example: "ABBA" => 2
 
-def duplicateCount (string)
+def duplicateCount (input)
+    num = 0
+	input = input.downcase
+	chars = input.split('')
     
+    chars.each do|c|
+      num = input.scan(c).count
+    	end
+	return num
 end
-
-duplicateCount("abcde")

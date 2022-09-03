@@ -16,8 +16,5 @@ def closedPaths(num)
       num = (num/10).to_i
     end
     
-    puts holes 
+    return holes 
 end
-
-closedPaths(649578)
-closedPaths(1288)
