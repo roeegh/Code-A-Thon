@@ -1,4 +1,4 @@
-// Prompt: Consider the code below, when will the MyChild component be unmounted?
+// Prompt: Consider the code below, when will the MyChild component be unmounted? 
 
 const MyParent = ({ value }) => {
     return <div>{ value !== 3 && <MyChlid />}</div>;

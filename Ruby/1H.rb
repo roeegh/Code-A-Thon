@@ -17,4 +17,4 @@ def closedPaths(num)
     end
     
     return holes 
-end
+end 

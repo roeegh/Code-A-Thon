@@ -18,4 +18,4 @@ def duplicateCount (input)
       num = input.scan(c).count
     	end
 	return num
-end
+end 

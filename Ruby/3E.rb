@@ -15,4 +15,4 @@ def alphabetPosition (input)
     end
 
     return output
-end
+end 

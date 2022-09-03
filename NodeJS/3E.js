@@ -10,4 +10,4 @@ const iqTest = (numbers) => {
     const odd = numbers.split(' ').filter(n => n % 2 === 1);
     const even = numbers.split(' ').filter(n => n % 2 === 0);
     return odd.length > even.length ? numbers.split(' ').indexOf(even[0]) + 1 : numbers.split(' ').indexOf(odd[0]) + 1;
-}
+} 
