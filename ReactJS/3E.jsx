@@ -1,4 +1,4 @@
-// Consider the following code snippet, How many times the 'Hello' message would be printed?
+// Prompt: Consider the following code snippet, How many times the 'Hello' message would be printed?
 
 const App = () => {
     const [counter, setCounter] = useState(0);
@@ -11,4 +11,6 @@ const App = () => {
     return (<div>{ counter }</div>);
 }
 
-    
+/*
+    [X] The 'Hello' message will be printed once.
+*/

@@ -14,8 +14,8 @@ const MyComponent = () => {
 }
 
 /* 
-[] The code will result in a memory leak
-[] A 'hello' message will be displayed
-[] No message will be displayed
-[] setResult() is never called
+    [X] The code will result in a memory leak
+    [] A 'hello' message will be displayed
+    [] No message will be displayed
+    [] setResult() is never called
 */

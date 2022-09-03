@@ -5,8 +5,8 @@ const MyParent = ({ value }) => {
 }
 
 /*
-[] When the value property is equal to 3
-[X] When the value property is different from 3
-[] Never
-[] After each render of the MyParent component
+    [X] When the value property is equal to 3
+    [] When the value property is different from 3
+    [] Never
+    [] After each render of the MyParent component
 */
